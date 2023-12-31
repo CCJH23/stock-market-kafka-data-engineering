@@ -1,6 +1,6 @@
-# stock-market-kafka-data-engineering
+# Stock Market Kafka Data Engineering Project
 
-Learning Kafka by simulating a stock market API, storing data in Amazon S3, crawling data using Amazon Glue, creating a data catalogue and querying data using Amazon Athena
+Kafka project by simulating a stock market API, storing data in Amazon S3, crawling data using Amazon Glue, creating a data catalogue and querying data using Amazon Athena
 
 ## Architecture Diagram
 
@@ -12,6 +12,14 @@ Learning Kafka by simulating a stock market API, storing data in Amazon S3, craw
 2. Amazon S3
 3. Amazon Glue
 4. Amazon Athena
+
+## Data from CSV File
+
+![Data from CSV File]()
+
+## Data in Amazon Athena After Crawling by Amazon Glue
+
+![Data in Amazon Athena After Crawling by Amazon Glue]()
 
 ## Process
 
