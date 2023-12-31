@@ -4,7 +4,7 @@ Learning Kafka by simulating a stock market API, storing data in Amazon S3, craw
 
 ## Architecture Diagram
 
-![Architecture Diagram]()
+![Architecture Diagram](https://github.com/CCJH23/stock-market-kafka-data-engineering/blob/63e183b4ba0bc38f83a5dfa00b9e4a8658bf8760/img/ArchitectureDiagram.png)
 
 ## Technologies Used
 
