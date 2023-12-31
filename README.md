@@ -1,6 +1,6 @@
-# Stock Market Kafka Data Engineering Project
+# Kafka Real-time Stock Market Data Engineering Project
 
-Kafka project by simulating a stock market API, storing data in Amazon S3, crawling data using Amazon Glue, creating a data catalogue and querying data using Amazon Athena
+Using Kafka to extract prices from a simulated stock market API in real-time, storing the data in Amazon S3, crawling data in S3 using Amazon Glue to create a data catalogue and querying data using Amazon Athena
 
 ## Architecture Diagram
 
@@ -35,7 +35,7 @@ Kafka project by simulating a stock market API, storing data in Amazon S3, crawl
 2. Simulate a stock market API (producer)
    1. Read sampleStockMarketData csv file using Pandas in Jupyter notebook as a dataframe
    2. Initialise Kafka producer
-   3. Create a loop that randomly picks a row from the dataframe and sends it using the producer
-3. Create a Kafka consumer that receives this data and stores the data into Amazon S3
-4. Use Amazon Glue crawler to crawl through the data in the S3 bucket to understand the schema of the data and create a data catalog
+   3. Create a loop that randomly picks a row from the dataframe and sends the data as json using the producer
+3. Initialise Kafka consumer that receives this data and stores the data in Amazon S3
+4. Use Amazon Glue crawler to crawl through the data in the S3 bucket to understand the schema of the data and create a data catalog from it
 5. Query the data in Amazon Athena using SQL
