@@ -15,11 +15,11 @@ Kafka project by simulating a stock market API, storing data in Amazon S3, crawl
 
 ## Data from CSV File
 
-![Data from CSV File]()
+![Data from CSV File](https://github.com/CCJH23/stock-market-kafka-data-engineering/blob/77a21985ea8787f90ba5b083f82e3582563ad727/img/DataBefore.png)
 
 ## Data in Amazon Athena After Crawling by Amazon Glue
 
-![Data in Amazon Athena After Crawling by Amazon Glue]()
+![Data in Amazon Athena After Crawling by Amazon Glue](https://github.com/CCJH23/stock-market-kafka-data-engineering/blob/77a21985ea8787f90ba5b083f82e3582563ad727/img/DataInAthena.png)
 
 ## Process
 
